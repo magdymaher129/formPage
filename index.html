@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="serveystyle.css">
+    </head>
+<body>
+<div  id="outside">
+<h1 id="title">Personal Information Survey </h1>
+<p id="description"><strong>Note : </strong>Form is to be completed before 30/1/2020</p>
+
+<form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <br>
+  <input type="text" name="name" value="" id="name" placeholder ="Enter your name">
+  <br>
+  <label for="address" id="name-label" >Address</label>
+  <br>
+  <input type="text" name="Address" value="" id="name" placeholder ="Enter your Address">
+ <br>
+
+ <label for="email" id="email-label">Email</label>
+ <br>
+   <input type="email" name="email"  placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email">
+  <br>
+ <label for="address" id="number-label">Number of childern</label><br>
+  <input type="number" name="childern" id="number"  min="0" max="10" placeholder ="Enter numbers of your childern">
+  <br>
+  <fieldset>
+        <legend>when did you start your career?</legend>  
+  <input type="radio"name="Age" value="p1" checked id ="Age" >1 - 3 years<br>
+  <input type="radio" name="Age" value="p2"  id ="Age">3 - 10 years<br>
+  <input type="radio" name="Age" value="p2"  id ="Age">more than 10 years<br>
+</fieldset> 
+  <br>
+  <fieldset>
+        <legend>What is your annual income?</legend>  
+  <input type="radio"name="salary" value="s1" checked id ="salary" >less than 1000 $ <br>
+  <input type="radio" name="salary" value="s2"  id ="salary">1000-3000 $<br>
+  <input type="radio" name="salary" value="s2"  id ="salary">more than 3000$<br>
+</fieldset> 
+  <br>
+
+<fieldset>      
+        <legend>What is Your Favorite Pet?</legend>      
+        <input type="checkbox" name="favorite_pet" value="Cats">Cats<br>      
+        <input type="checkbox" name="favorite_pet" value="Dogs">Dogs<br>      
+        <input type="checkbox" name="favorite_pet" value="Birds">Birds<br>      
+             
+</fieldset>      
+<label for="gender" >gender</label> <br>
+<select id="dropdown">
+        <option value="male" selected>male</option>
+        <option value="female">female</option>
+        </select>
+      <br>
+      <label for="gender" >Add any Comment</label> <br>
+      <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+      <br>
+
+  <input type="submit" value="Submit" id ="submit">
+</form> 
+</div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    font-family: 'Anaheim';
+    font-size: 1.2em;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  #outside {
+   
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  #description{
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  #survey-form{
+    
+    margin: 0  400px 20px 400px;
+    width: 25%;
+   
+    padding: 1em;
+    line-height: 25px;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: mintcream;
+    
+  }
+
+
+  
+
+  
+  #number {
+  
+    width: 200px;
+  }
+  
+
+  input[type=radio] {
+    position: relative;
+    appearance: none;
+    font-size: inherit;
+    width: 1em;
+    margin: 0 5px;
+    color: inherit;
+    outline: none;
+    font-family: 'Font Awesome 5 Pro';
+    transition: 300ms ease-out;
+  }
+
+
+  
+ 
+  
+  #submit {
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 1em;
+    padding-left: 20px; 
+   width:180px;
+  }
+  
+
+  input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+  }
+   
